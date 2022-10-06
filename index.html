@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <title>Votação</title>
+</head>
+<body>
+    <input type="hidden" id="codigoCargo" value="2" data-turno="2">
+    
+    <div id="topo-pag">
+        <div class="barra-topo">&nbsp;</div>
+        <div class="logoje"><img src="image/logo-je.png" width="115" height="45" border="0"></div>
+    </div>
+    <div id="conteudo">
+        <img id="tela" alt="tela" src="image/tela.jpg" width="451" height="423" border="0">
+        <img id="topo" alt="topo da urna" src="image/topo.jpg" width="192" height="183" border="0">
+        <img id="faixaDir" alt="faixa direita da urna" src="image/faixaDir.jpg" width="38" height="357" border="0">
+        <img id="ladoEsqTec" alt="lado esquerdo do teclado" src="image/ladoEsqTec.jpg" width="19" height="160" border="0">
+        <img id="n_1" alt="tecla número 1" src="image/n1.jpg" width="51" height="41" border="0" style="cursor: pointer;">
+        <img id="n_2" alt="tecla número 2" src="image/n2.jpg" width="48" height="41" border="0" style="cursor: pointer;">
+        <img id="n_3" alt="tecla número 3" src="image/n3.jpg" width="48" height="41" border="0" style="cursor: pointer;">
+        <img id="ladoDirTec" alt="lado direito teclado" src="image/ladoDirTec.jpg" width="26" height="152" border="0">
+        <img id="n_4" alt="tecla número 4" src="image/n4.jpg" width="51" height="42" border="0" style="cursor: pointer;">
+        <img id="n_5" alt="tecla número 5" src="image/n5.jpg" width="48" height="42" border="0" style="cursor: pointer;">
+        <img id="n_6" alt="tecla número 6" src="image/n6.jpg" width="48" height="42" border="0" style="cursor: pointer;">
+        <img id="n_7" alt="tecla número 7" src="image/n7.jpg" width="51" height="41" border="0" style="cursor: pointer;">
+        <img id="n_8" alt="tecla número 8" src="image/n8.jpg" width="48" height="41" border="0" style="cursor: pointer;">
+        <img id="n_9" alt="tecla número 9" src="image/n9.jpg" width="48" height="41" border="0" style="cursor: pointer;">
+        <img id="ptabaixo7" alt="parte abaixo 7" src="image/ptabaixo7.jpg" width="51" height="36" border="0">
+        <img id="n_0" alt="tecla número 0" src="image/n0.jpg" width="56" height="36" border="0" style="cursor: pointer;">
+        <img id="ptabaixo9" alt="parte abaixo 9" src="image/ptabaixo9.jpg" width="40" height="28" border="0">
+        <img id="confirma" alt="tecla confirma" src="image/confirma.jpg" width="66" height="49" border="0" data-proximo="presidenteT2.html" style="cursor: pointer;">
+        <img id="branco" alt="tecla branco" src="image/branco.jpg" width="63" height="41" border="0" style="cursor: pointer;">
+        <img id="corrige" alt="tecla corrige" src="image/corrige.jpg" width="63" height="41" border="0" style="cursor: pointer;">
+        <img id="abaixoTec" alt="abaixo do teclado" src="image/abaixoTec.jpg" width="226" height="27" border="0">
+    </div>
+    <div id="painel">
+        <div id="fase">TREINAMENTO</div>
+        <div id="cabecalho" style="display: none;">SEU VOTO PARA</div>
+        <div id="cxFoto" style="display: none;"><img id="foto" alt="foto do candidato" src="" width="101" height="145"></div>
+        <div id="labelCanditato" style="display: none;">Presidente</div>
+        <div id="vice">
+            <div id="cxFotoVice" src="" style="display: none;"><img id="fotoVice" src="" width="75" height="105" style="display: none;"></div>
+            <div id="labelVice" style="display: none;">Vice-Presidente</div>
+        </div>
+        <div id="cargo">Presidente</div>
+        <span id="habilitaNumeros"></span>
+        <div id="numeros" style="display: block;">
+            <div id="numeroLabel" style="display: none;">Número:</div>
+            <div id="cxNumero1" class="cxNumero" style="opacity: 1;"></div>
+            <div id="cxNumero2" class="cxNumero" style="opacity: 1;"></div>
+        </div>
+        <div id="avisoErrado" style="display: none;">NÚMERO ERRADO</div>
+        <div id="avisoInexistente" style="display: none;">CANDIDATO INEXISTENTE</div>
+        <div id="avisoNulo" style="color: rgb(117, 117, 117); display: none;">VOTO NULO</div>
+        <div id="avisoLegenda" style="color: rgb(117, 117, 117); display: none;">VOTO DE LEGENDA</div>
+        <div id="avisoBranco" style="color: rgb(117, 117, 117); display: none;">VOTO EM BRANCO</div>
+        <div id="avisoConferirVoto" style="color: rgb(117, 117, 117); left: 120px; display: none;">CONFIRA O SEU VOTO</div>
+        <div id="candidato" style="display: none;">
+            <div id="candidatoLabel">Nome:</div>
+            <div id="candidatoNome"></div>
+        </div>   
+        
+        
+    </div>
+</body>

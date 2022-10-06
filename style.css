@@ -1,0 +1,291 @@
+element.style {
+}
+
+html {
+    display: block;
+}
+
+body {
+    font: 80% "arial", sans-serif;
+    margin: 0px;
+    display: block;
+}
+
+#ladoDirTec {
+    position: absolute;
+    left: 879px;
+    top: 363px;
+    width: 37px;
+    height: 216px;
+}
+
+#ladoEsqTec {
+    position: absolute;
+    left: 642px;
+    top: 363px;
+    width: 27px;
+    height: 227px;
+}
+
+#n_1 {
+    position: absolute;
+    left: 669px;
+    top: 363px;
+    width: 73px;
+    height: 58px;
+}
+
+#n_2 {
+    position: absolute;
+    left: 742px;
+    top: 363px;
+    width: 68px;
+    height: 58px;
+}
+
+#n_3 {
+    position: absolute;
+    left: 810px;
+    top: 363px;
+    width: 69px;
+    height: 58px;
+}
+
+#n_4 {
+    position: absolute;
+    left: 669px;
+    top: 421px;
+    width: 73px;
+    height: 60px;
+}
+
+#n_5 {
+    position: absolute;
+    left: 742px;
+    top: 421px;
+    width: 68px;
+    height: 60px;
+}
+
+#n_6 {
+    position: absolute;
+    left: 810px;
+    top: 421px;
+    width: 69px;
+    height: 60px;
+}
+
+#n_7 {
+    position: absolute;
+    left: 669px;
+    top: 481px;
+    width: 73px;
+    height: 58px;
+}
+
+#n_8 {
+    position: absolute;
+    left: 742px;
+    top: 481px;
+    width: 68px;
+    height: 58px;
+}
+
+#n_9 {
+    position: absolute;
+    left: 810px;
+    top: 481px;
+    width: 69px;
+    height: 58px;
+}
+
+#n_0 {
+    position: absolute;
+    left: 742px;
+    top: 539px;
+    width: 80px;
+    height: 51px;
+}
+
+#ptabaixo9 {
+    position: absolute;
+    left: 822px;
+    top: 539px;
+    width: 57px;
+    height: 40px;
+}
+
+#ptabaixo7 {
+    position: absolute;
+    left: 669px;
+    top: 539px;
+    width: 73px;
+    height: 51px;
+}
+
+#branco {
+    position: absolute;
+    left: 642px;
+    top: 590px;
+    width: 90px;
+    height: 59px;
+}
+
+#corrige {
+    position: absolute;
+    left: 732px;
+    top: 590px;
+    width: 90px;
+    height: 59px;
+}
+
+#confirma {
+    position: absolute;
+    left: 822px;
+    top: 579px;
+    width: 94px;
+    height: 70px;
+}
+
+#abaixoTec {
+    position: absolute;
+    left: 642px;
+    top: 649px;
+    width: 324px;
+    height: 40px;
+}
+
+#faixaDir {
+    position: absolute;
+    left: 916px;
+    top: 137px;
+    width: 55px;
+    height: 512px;
+}
+
+#cargo {
+    display: block;
+    position: absolute;
+    left: 140px;
+    top: 42px;
+    width: 300px;
+    height: 30px;
+    border: 0px solid #0cc;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+#cxNumero2 {
+    display: block;
+    position: absolute;
+    left: 120px;
+    top: 88px;
+    width: 22px;
+    height: 27px;
+    border: 1px solid #666;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+#cxNumero1 {
+    display: block;
+    position: absolute;
+    left: 90px;
+    top: 88px;
+    width: 22px;
+    height: 27px;
+    border: 1px solid #666;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+#fase {
+    position: absolute;
+    left: 230px;
+    top: 2px;
+    width: 90px;
+    height: 16px;
+    border: 0px solid #f00;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #acacac;
+}
+
+.barra-topo {
+    min-height: 35px;
+    align-items: center;
+    background-color: #1b305a;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#topo {
+    position: absolute;
+    left: 642px;
+    top: 102px;
+    width: 274px;
+    height: 261px;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: #dadada;
+    border: 1px solid #ebebeb;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+#painel {
+    display: block;
+    position: absolute;
+    left: 49px;
+    top: 311px;
+    width: 547px;
+    height: 319px;
+    border: 0px solid #f00;
+    background-color: #fff;
+}
+
+#tela {
+    position: absolute;
+    left: 0px;
+    top: 105px;
+    width: 642px;
+    height: 603px;
+}
+
+#conteudo {
+    border: 0px solid #f00;
+    position: relative;
+}
+
+#topo-pag {
+    position: absolute;
+    min-height: 92px;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+}
+
+img[Attributes Style] {
+    width: 192px;
+    aspect-ratio: auto 192 / 183;
+    height: 183px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
